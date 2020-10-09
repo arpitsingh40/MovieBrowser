@@ -65,6 +65,8 @@ define( 'NONCE_SALT',       '+u-C8p6S&rUae%[S~A7tkL&RJVp7S`@SPA~_K(![-/sw}ce?(MG
  */
 $table_prefix = 'wp_';
 
+@ini_set('upload_max_size' , '256M' );
+
 /**
  * For developers: WordPress debugging mode.
  *
@@ -78,6 +80,8 @@ $table_prefix = 'wp_';
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
+
+@ini_set('upload_max_size' , '256M' );
 
 /* That's all, stop editing! Happy publishing. */
 
